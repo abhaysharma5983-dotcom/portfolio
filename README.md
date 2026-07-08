@@ -2,6 +2,10 @@
 
 Welcome to my personal portfolio website. This project showcases my skills, projects, and contact information.
 
+## 🌐 Live Demo
+
+🔗 https://abhaysharma-portfolio.netlify.app
+
 ## ✨ Features
 
 - Responsive Design
@@ -30,4 +34,4 @@ git clone https://github.com/abhaysharma5983-dotcom/portfolio.git
 
 - GitHub: https://github.com/abhaysharma5983-dotcom
 
-❤️ Made by Abhay Sharma
+💖 Made by Abhay Sharma
