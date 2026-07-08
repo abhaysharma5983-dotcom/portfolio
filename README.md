@@ -1,22 +1,33 @@
-# Abhay Sharma | Portfolio
+# 🚀 Personal Portfolio
 
-This is my personal portfolio website built using **HTML, CSS, and JavaScript**.
+Welcome to my personal portfolio website. This project showcases my skills, projects, and contact information.
 
 ## ✨ Features
-- Glowing header with navigation links (Home, About, Projects, Skills, Contact)
-- Intro section with name, title, and action buttons (Hire Me, Download Resume)
-- About Me section with expandable "More About Me" details (line by line points)
-- Projects showcase with **unique grid layout + gradient cards + hover effect**
-- Skills list with **progress bar graph** (HTML orange, CSS blue, JS yellow, React cyan, Node green, Git red)
-- Contact form with email and social links
-- Footer with © 2026 Abhay Sharma | All Rights Reserved
-- Dark mode toggle 🌙
-- Starry sky background for modern look
 
-## 🚀 How to Run
-1. Clone or download this repository.
-2. Place all files (`index.html`, `style.css`, `script.js`, `README.md`) in one folder.
-3. Open `index.html` in **VS Code**.
-4. Run using **Live Server** → `http://127.0.0.1:5500`.
+- Responsive Design
+- About Me Section
+- Skills Section
+- Projects Section
+- Contact Section
 
-## 📂 File Structure
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/abhaysharma5983-dotcom/portfolio.git
+```
+
+2. Open `index.html` in your browser.
+
+## 📞 Contact
+
+- GitHub: https://github.com/abhaysharma5983-dotcom
+
+❤️ Made by Abhay Sharma
