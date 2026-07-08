@@ -1,113 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abhay Sharma | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Sharma | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
-  <!-- Header -->
-  <header>
-    <h1 class="logo">Abhay Sharma</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="toggle">🌙</div>
-  </header>
 
-  <!-- Intro Section -->
-  <section id="home" class="intro">
-    <h2>Hi, I'm Abhay Sharma</h2>
-    <h3>Web Designer</h3>
-    <p>B.Tech CSE Student | Full Stack Developer | Web Designer</p>
-    <div class="buttons">
-      <a href="#contact" class="btn">Hire Me</a>
-      <a href="resume.pdf" class="btn">Download Resume</a>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
-  </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a Computer Science Engineering student passionate about Web Development and Java DSA.</p>
-    <button id="moreBtn" class="btn">More About Me</button>
-    <div id="moreContent" class="hidden">
-      <ul>
-        <li>🎓 Studying at GLA University, Mathura</li>
-        <li>💻 Focused on Web Development & UI/UX Design</li>
-        <li>⚡ Interested in Automation & AI Projects</li>
-        <li>📚 Always learning new technologies</li>
-      </ul>
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            Abhay <span>Sharma</span>
+        </div>
+
+        <nav>
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Abhay Sharma</h1>
+
+            <h2><span class="typing"></span></h2>
+
+            <p>
+
+                Passionate Computer Science Engineering student who loves
+                creating beautiful and responsive websites.
+                I enjoy learning new technologies and building modern web
+                applications.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#contact" class="btn">
+                    Hire Me
+                </a>
+
+                <a href="resume.pdf" class="btn btn-outline" download>
+                    Download Resume
+                </a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="https://github.com/abhaysharma5983-dotcom" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/abhay-sharma-6351153b0"
+                    target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://leetcode.com/u/abhay_345/" target="_blank">
+                  <i class="fa-solid fa-code"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="hero-image">
+
+            <div class="image-box">
+
+                <img src="profile.jpg" alt="Abhay Sharma">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about reveal" id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-card">
+
+            <p>
+
+                Hello! I'm <strong>Abhay Sharma</strong>, a
+                <strong>B.Tech Computer Science Engineering</strong> student at
+                <strong>GLA University, Mathura.</strong>
+
+                I enjoy creating modern websites using HTML, CSS, JavaScript
+                and Node.js.
+
+                I love solving problems, learning new technologies and
+                improving my frontend development skills.
+
+            </p>
+
+            <div class="about-info">
+
+                <div class="info-box">
+                    🎓 B.Tech CSE
+                </div>
+
+                <div class="info-box">
+                    💻 Web Developer
+                </div>
+
+                <div class="info-box">
+                    🚀 Frontend Enthusiast
+                </div>
+
+                <div class="info-box">
+                    📍 India
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+   <!-- ================= PROJECTS ================= -->
+
+<section class="projects reveal" id="projects">
+
+    <h2 class="section-title">
+        My Projects
+    </h2>
+
+    <div class="project-container">
+
+        <!-- Project 1 -->
+
+        <div class="project-card">
+
+            <i class="fa-solid fa-user"></i>
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+                A modern responsive portfolio website built using HTML, CSS and JavaScript with smooth animations, responsive design and an attractive user interface.
+            </p>
+
+        </div>
+
+        <!-- Project 2 -->
+
+        <div class="project-card">
+
+            <i class="fa-brands fa-instagram"></i>
+
+            <h3>Instagram DM Automation</h3>
+
+            <p>
+                An AI-based intent detection and smart auto-reply web system that understands user messages and automatically sends appropriate responses.
+            </p>
+
+        </div>
+
+        <!-- Project 3 -->
+
+        <div class="project-card">
+
+            <i class="fa-solid fa-calculator"></i>
+
+            <h3>Smart Calculator</h3>
+
+            <p>
+                A responsive calculator with a modern user interface designed for fast and accurate basic arithmetic calculations.
+            </p>
+
+        </div>
+
     </div>
-  </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h3>Personal Portfolio Website</h3>
-        <p>A responsive personal portfolio using HTML, CSS, JS.</p>
-      </div>
-      <div class="project-card">
-        <h3>Instagram DM Automation</h3>
-        <p>AI-based intent detection and smart auto-reply system.</p>
-      </div>
-      <div class="project-card">
-        <h3>Smart Calculator</h3>
-        <p>A modern calculator with interactive UI and multiple modes.</p>
-      </div>
+</section>
+                  
+         <!-- ================= SKILLS ================= -->
+
+<section class="skills reveal" id="skills">
+
+    <h2 class="section-title">
+        Skills
+    </h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <i class="fa-brands fa-html5"></i>
+            HTML
+        </div>
+
+        <div class="skill-box">
+            <i class="fa-brands fa-css3-alt"></i>
+            CSS
+        </div>
+
+        <div class="skill-box">
+            <i class="fa-brands fa-js"></i>
+            JavaScript
+        </div>
+
+        <div class="skill-box">
+            <i class="fa-brands fa-node-js"></i>
+            Node.js
+        </div>
+
+        <div class="skill-box">
+            <i class="fa-solid fa-server"></i>
+            Express.js
+        </div>
+
     </div>
-  </section>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Node.js</li>
-      <li>Git & GitHub</li>
-    </ul>
+</section>
 
-    <!-- Skills Graph -->
-    <div class="skills-graph">
-      <div class="bar"><span>HTML</span><div class="progress html"></div></div>
-      <div class="bar"><span>CSS</span><div class="progress css"></div></div>
-      <div class="bar"><span>JavaScript</span><div class="progress js"></div></div>
-      <div class="bar"><span>React</span><div class="progress react"></div></div>
-      <div class="bar"><span>Node.js</span><div class="progress node"></div></div>
-      <div class="bar"><span>Git & GitHub</span><div class="progress git"></div></div>
-    </div>
-  </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-    <p>Email: abhay@example.com</p>
-    <p><a href="https://linkedin.com">LinkedIn</a> | <a href="https://github.com">GitHub</a></p>
-  </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Abhay Sharma | All Rights Reserved</p>
-  </footer>
+    <!-- ================= CONTACT ================= -->
 
-  <script src="script.js"></script>
+    <section class="contact reveal" id="contact">
+
+        <h2 class="section-title">
+            Contact Me
+        </h2>
+
+        <div class="contact-container">
+
+            <form>
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Your Email" required>
+
+                <textarea rows="6"
+                    placeholder="Write your message..."
+                    required></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+
+
+            <div class="contact-info">
+
+                <h3>Let's Connect</h3>
+
+                <p>
+
+                    Feel free to connect with me through LinkedIn
+                    or GitHub.
+
+                </p>
+
+                <div class="contact-links">
+
+                    <a href="https://www.linkedin.com/in/abhay-sharma-6351153b0"
+                        target="_blank">
+
+                        <i class="fab fa-linkedin"></i>
+
+                        LinkedIn
+
+                    </a>
+
+
+
+                    <a href="https://github.com/abhaysharma5983-dotcom"
+                        target="_blank">
+
+                        <i class="fab fa-github"></i>
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Abhay Sharma |
+            Designed & Developed by Abhay Sharma
+
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
